@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/grishmadahal1/Perth-Cinema/issues"
   },
-  "homepage": "https://github.com/grishmadahal1/Perth-Cinema#readme"
+  "homepage": "https://github.com/grishmadahal1/Perth-Cinema#readme",
+  "dependencies": {
+    "mongoose": "^9.2.4"
+  }
 }
