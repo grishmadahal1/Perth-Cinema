@@ -36,20 +36,6 @@ const bookingSchema = new mongoose.Schema(
   }
 );
 
-// Static Method
-
-// Booking.findByUser(userId)
-
-// Returns all bookings for a user
-
-// Instance Method
-
-// booking.cancel()
-
-// Sets status → cancelled
-
-// Saves booking
-
 bookingSchema.statics.findByUser = async function (userId) {
   return this.find({ user: userId }).populate('showtime').populate('user');
 };
